@@ -1,0 +1,7 @@
+ALL
+kimonotocat.png 200 200
+###
+"You cannot escape me, "+self.name+"-chan\nYou are trapped here for eternity!"
+###
+QUIT|red|self.quit|15|9|1|1
+###

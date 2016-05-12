@@ -1,0 +1,10 @@
+ALL
+jetpacktocat.png 200 200
+###
+"You defeated the evil queen, "+self.name+"-sama"
+###
+Reset|brown|self.reset|14|9|1|1
+Murder|black|self.killCan|13|6|1|1
+QUIT|red|self.quit|15|9|1|1
+Go Back|blue|lambda: middle.go('testroom.room')|11|0|1|1
+###
