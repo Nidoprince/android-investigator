@@ -1,0 +1,12 @@
+ALL
+jetpacktocat.png 150 200
+kimonotocat.png 400 150
+###
+"Greetings, "+self.name+"-san"
+###
+Next Room|cyan|lambda: middle.go('testtestroom.room')|13|3|1|1
+Draw Random|green|self.drawPic|14|3|1|1
+Murder|black|self.killCan|13|6|1|1
+QUIT|red|self.quit|15|9|1|1
+New Text|blue|lambda: middle.changeText('New Text')|11|0|1|1
+###

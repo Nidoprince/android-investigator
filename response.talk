@@ -1,0 +1,8 @@
+TALK
+"You would defy us?\nWe shall not forget this!"
+###
+QUIT|red|self.quit|15|9|1|1
+Reset|brown|self.reset|14|9|1|1
+Battle!|green|lambda: middle.go('victory.room')|11|0|1|1
+Flee!|yellow|lambda: middle.go('defeat.room')|11|2|1|1
+###

@@ -1,0 +1,12 @@
+ALL
+jetpacktocat.png 400 200
+kimonotocat.png 150 150
+###
+"Prepare to Die, "+self.name+"-chan"
+###
+Reset|brown|self.reset|14|9|1|1
+Draw Random|green|self.drawPic|14|3|1|1
+Murder|black|self.killCan|13|6|1|1
+QUIT|red|self.quit|15|9|1|1
+Refuse to Die|blue|lambda: middle.talk('response.talk')|11|0|1|1
+###
