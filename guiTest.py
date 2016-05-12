@@ -1,6 +1,7 @@
 import tkinter as tk
 import random
 from placeMaker import *
+from haiku import haiku
 
 class Application(tk.Frame):
     def __init__(self, master=None):
